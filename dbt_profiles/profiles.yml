@@ -1,0 +1,10 @@
+project_1:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: essec-ep
+      dataset: dbt_test # You can also use "schema" here
+      threads: 1 # Must be a value of 1 or greater
+      OPTIONAL_CONFIG: VALUE

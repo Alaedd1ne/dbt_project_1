@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: my_source
+    tables:
+      - name: table_A
+      - name: table_B
